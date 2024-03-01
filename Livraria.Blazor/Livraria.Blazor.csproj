@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Components\Pages\StyleSheet.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Livraria.CrossCutting\Livraria.CrossCutting.csproj" />
   </ItemGroup>
 
